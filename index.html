@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Sairaj Rajendra Khedekar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">Portfolio</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home-content">
+                <div class="profile-image-wrapper">
+                    <img src="profile.jpg" alt="Profile Picture" class="profile-image">
+                </div>
+                <h1 class="home-title">Hi, I'm <span class="highlight">Sairaj Rajendra Khedekar</span></h1>
+                <p class="home-subtitle">Web Developer & Designer</p>
+                <p class="home-bio">
+                    Welcome to my portfolio! I'm a passionate developer who loves creating 
+                    beautiful and functional web experiences. I specialize in front-end development 
+                    and enjoy turning complex problems into simple, elegant solutions.
+                </p>
+                <div class="home-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a dedicated web developer with a passion for creating innovative 
+                        digital solutions. With a strong foundation in HTML, CSS, and JavaScript, 
+                        I bring ideas to life through clean code and thoughtful design.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new technologies, 
+                        contributing to open-source projects, or sharing knowledge with the 
+                        developer community.
+                    </p>
+                </div>
+                
+                <div class="about-details">
+                    <div class="detail-card">
+                        <h3>Education</h3>
+                        <div class="detail-item">
+                            <h4>Bachelor of Science in Information Technology</h4>
+                            <p>University of Mumbai | 2022 - 2025</p>
+                            <p>Relevant coursework: Web Development, Computer Hardware , CCST</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Hobbies & Interests</h3>
+                        <ul class="hobbies-list">
+                            <li>🎨 UI/UX Design</li>
+                            <li>💻 Computer Hardware</li>
+                            <li>⚽ Chess & Kabaddi</li>
+                            <li>🎮 Gaming</li>
+                            <li>📸 Photography</li>
+                            <li>🌱 Learning New Technologies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Here are some of my recent projects that showcase my skills and creativity.</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project1.png" alt="Restaurant Website">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Restaurant Website</h3>
+                        <p>A fully responsive restaurant website featuring an elegant menu display, online reservation system, and gallery showcase. The website includes interactive elements for browsing dishes, viewing special offers, and contacting the restaurant. Built with modern design principles to provide an excellent user experience for customers.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project2.png" alt="RFID Attendance System">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>RFID Based Attendance System</h3>
+                        <p>An automated attendance management system using RFID technology. The web interface allows administrators to track employee attendance in real-time, generate reports, and manage user data. Features include RFID card scanning simulation, attendance history, and export functionality for record-keeping purposes.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project3.png" alt="Computer Store Website">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Computer Store Website</h3>
+                        <p>A comprehensive e-commerce website for a computer store featuring product catalog, detailed specifications, price comparison, and shopping cart functionality. The website showcases various computer components, laptops, and accessories with filtering options, search capabilities, and a user-friendly checkout process.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a project in mind or want to collaborate? Feel free to reach out!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p>sairajkhedekar09@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Phone</h3>
+                        <p>+91 7218426980</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Location</h3>
+                        <p>Ratnagiri, Maharastra, India.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/sairaj-khedekar-ba1289256/" class="social-link" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/sairajkhedekar" class="social-link" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <span class="error-message" id="subject-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div class="form-message" id="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sairaj Rajendra Khedekar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
